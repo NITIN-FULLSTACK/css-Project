@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.border{
+    border: 2px solid;
+    border-radius: 2rem;
+    max-width: 600px;
+    margin: 0 auto 1rem;
+    font-size: 3rem;
+    line-height: 7rem;
+}
+h2{
+    padding: 1rem;
+    background-color: gold;
+    border-radius: 2rem 2rem 0 0;
+    /* margin: 20  20; */
+}
+ul{
+    list-style: none;   
+}
+li{
+    border-top: 1px solid;
+}
+li a,
+li a:visited{
+    text-decoration: none;
+    color: #333;
+}
+li a:hover{
+    background-color: black;
+    color: bisque; 
+}
+li a{
+    display: block;
+}
+li:last-child a{
+    border-radius: 0 0 2rem 2rem;
+} 
